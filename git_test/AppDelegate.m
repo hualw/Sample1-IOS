@@ -21,6 +21,7 @@
     // Override point for customization after application launch.
     
     _label = [[UILabel alloc] init];
+    _label.text = @"徐洋";
     return YES;
 }
 
