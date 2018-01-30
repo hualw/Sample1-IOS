@@ -15,6 +15,7 @@
 		2F1AE91D202001880020D7F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1AE91C202001880020D7F7 /* main.m */; };
 		2F1AE927202001890020D7F7 /* git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1AE926202001890020D7F7 /* git_testTests.m */; };
 		2F1AE932202001890020D7F7 /* git_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1AE931202001890020D7F7 /* git_testUITests.m */; };
+		2F1AE97F20203D370020D7F7 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1AE97E20203D370020D7F7 /* testViewController.m */; };
 		524756E15EB506C0125D1718 /* libPods-git_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC915CC03C0924746BEC59F /* libPods-git_test.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		2F1AE92D202001890020D7F7 /* git_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = git_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1AE931202001890020D7F7 /* git_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_testUITests.m; sourceTree = "<group>"; };
 		2F1AE933202001890020D7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1AE97D20203D370020D7F7 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		2F1AE97E20203D370020D7F7 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		78A3602EF9D239030C739375 /* Pods-git_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-git_test/Pods-git_test.debug.xcconfig"; sourceTree = "<group>"; };
 		7EC915CC03C0924746BEC59F /* libPods-git_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-git_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		955D6E80062E8C56B9467C85 /* Pods-git_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-git_test/Pods-git_test.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				2F1AE90E202001880020D7F7 /* AppDelegate.m */,
 				2F1AE910202001880020D7F7 /* ViewController.h */,
 				2F1AE911202001880020D7F7 /* ViewController.m */,
+				2F1AE97D20203D370020D7F7 /* testViewController.h */,
+				2F1AE97E20203D370020D7F7 /* testViewController.m */,
 				2F1AE913202001880020D7F7 /* Main.storyboard */,
 				2F1AE916202001880020D7F7 /* Assets.xcassets */,
 				2F1AE918202001880020D7F7 /* LaunchScreen.storyboard */,
@@ -345,6 +350,7 @@
 			files = (
 				2F1AE912202001880020D7F7 /* ViewController.m in Sources */,
 				2F1AE91D202001880020D7F7 /* main.m in Sources */,
+				2F1AE97F20203D370020D7F7 /* testViewController.m in Sources */,
 				2F1AE90F202001880020D7F7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
